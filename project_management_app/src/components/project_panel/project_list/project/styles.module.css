@@ -1,0 +1,44 @@
+.list {
+   list-style-type: none;
+}
+
+.project {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--grey);
+    height: 6rem;
+    margin-top: 2rem;
+}
+
+.projectSelected {
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+.projectHover {
+    background-color: var(--grey);
+    cursor: pointer;
+}
+
+.flag {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width:2rem;
+}
+
+.launched {
+    background-color: var(--green);
+}
+
+.finished {
+    background-color: var(--grey);
+}
+
+.notStarted {
+    background-color: var(--yellow);
+}

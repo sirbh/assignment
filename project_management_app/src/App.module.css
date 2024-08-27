@@ -1,0 +1,13 @@
+.panelContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.panelContainer>:first-child {
+  flex-grow: 2;
+}
+
+.panelContainer>:last-child {
+  flex-grow: 1;
+}
